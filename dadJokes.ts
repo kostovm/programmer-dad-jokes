@@ -14,3 +14,10 @@ function getDrink(isTimeForBeer: boolean): string{
         return getDrink(!isTimeForBeer);
     }
 }
+
+// When in Doubt, Throw
+
+if(looksAs === 'shit' && smelsAs === 'shit' && tastesAs === 'shit'){
+    throw new Error("You probably shouldn't have eaten it");
+}
+
